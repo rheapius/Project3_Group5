@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2023 Music Breakdown</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        .page {
+            display: none;
+        }
+        .page.active {
+            display: block;
+        }
+        body {
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<select id="pageSelect">
+    <option value="welcome">Welcome Page</option>
+    <option value="topTen">Top Ten Songs</option>
+    <option value="artistBreakdown">Artist Breakdown</option>
+    <option value="streamSummary">Streamed Songs Summary</option>
+</select>
+
+<div id="welcome" class="page active welcome-background">
+    <h1>Welcome to the Music Breakdown of 2023</h1>
+</div>
+
+<div id="topTen" class="page">
+  <h1>Top Ten Songs</h1>
+    <!-- Placeholder for Bar Chart and Pie Chart -->
+</div>
+
+<div id="artistBreakdown" class="page">
+  <h1>Artist Breakdown</h1>
+    <!-- Placeholder for Dropdown and 3D Scatter Plot -->
+</div>
+
+<div id="streamSummary" class="page">
+  <h1>Streamed Songs Summary</h1>
+    <!-- Placeholder for Histograms and Bubble Chart -->
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript" src="static/js/logic.js"></script>
+   
+</script>
+</body>
+</html>
+
