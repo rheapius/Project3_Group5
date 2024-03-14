@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>2023 Music Breakdown</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    
+</head>
+<body>
+
+<select onchange="changePage(this.value)">
+    <option value="welcome">Welcome Page</option>
+    <option value="topTen">Top Ten Songs</option>
+    <option value="artistBreakdown">Artist Breakdown</option>
+    <option value="streamSummary">Streamed Songs Summary</option>
+</select>
+
+<div id="welcome" class="page active">
+    <h1>Welcome to 2023 Music Breakdown</h1>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script defer src="https://pyscript.net/releases/2024.1.1/core.css"></script>
     <style>
         .page {
             display: none;
@@ -11,44 +27,53 @@
         .page.active {
             display: block;
         }
-        body {
+        #welcome {
+            background-image: url('https://cdn.pixabay.com/photo/2014/04/03/00/29/sound-308418_1280.png.jpg');
             background-size: cover;
+            background-position: center;
+            height: 100vh;
         }
     </style>
-</head>
-<body>
-
-<select id="pageSelect">
-    <option value="welcome">Welcome Page</option>
-    <option value="topTen">Top Ten Songs</option>
-    <option value="artistBreakdown">Artist Breakdown</option>
-    <option value="streamSummary">Streamed Songs Summary</option>
-</select>
-
-<div id="welcome" class="page active welcome-background">
-    <h1>Welcome to the Music Breakdown of 2023</h1>
+    <!-- Background image set via CSS or inline style -->
 </div>
 
-<div id="topTen" class="page">
-  <h1>Top Ten Songs</h1>
+<div id="topTen" class="page" style="display:none;">
+    <h1>Top Ten Songs</h1>
     <!-- Placeholder for Bar Chart and Pie Chart -->
+    <py-script>
+        # code for charts 
+    </py-script>
 </div>
 
-<div id="artistBreakdown" class="page">
-  <h1>Artist Breakdown</h1>
-    <!-- Placeholder for Dropdown and 3D Scatter Plot -->
+<div id="artistBreakdown" class="page" style="display:none;">
+    <h1>Artist Breakdown</h1>
+    <!-- Additional dropdown for selecting an artist -->
+    <!-- Placeholder for 3D Scatter Plot -->
+    <py-script>
+        # code for charts 
+    </py-script>
 </div>
 
-<div id="streamSummary" class="page">
-  <h1>Streamed Songs Summary</h1>
+<div id="streamSummary" class="page" style="display:none;">
+    <h1>Streamed Songs Summary</h1>
     <!-- Placeholder for Histograms and Bubble Chart -->
+    <py-script>
+        # code for charts 
+    </py-script>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script type="text/javascript" src="static/js/logic.js"></script>
-   
+<script>
+function changePage(pageId) {
+    document.querySelectorAll('.page').forEach(function(page) {
+        page.style.display = 'none';
+    });
+    document.getElementById(pageId).style.display = 'block';
+}
 </script>
+
+<py-env>
+    - plotly
+</py-env>
+
 </body>
 </html>
-
