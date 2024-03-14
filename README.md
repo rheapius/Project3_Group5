@@ -1,4 +1,4 @@
-# Top 10 songs & artists
+# Most Streamed Songs & Artists
 
 ## Overview:
 Visualize top 10 songs & artists based on streaming. 
