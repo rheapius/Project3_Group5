@@ -36,7 +36,7 @@ def create_bar_chart(top_songs):
 #         top_songs (DataFrame): The DataFrame containing the top N songs.
    #Create bar chart
     fig_bar = px.bar(top_songs, x='Track', y='Streams',
-                 title='Top Songs by Number of Streams', color='Track')
+                 title='Top Songs by Number of Streams', color='Track', hover_data= ["Artist"] )
     return  fig_bar
 
 ####################### PIE CHART #############################
