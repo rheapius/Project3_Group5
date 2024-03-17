@@ -22,6 +22,14 @@ df = pd.read_sql_query(query, engine)
 df1 = pd.read_sql_query(query1, engine)
 engine.dispose()
 
+####################### CHART BUILDER #############################
+
+def create_bubble_chart(df):
+    bubble = px.scatter(df, x="Track", y="Streams", color="Artist",
+                 size='Streams', hover_data=['Track'])
+    bubble.update_layout(height=1000, width=1500)
+    return bubble
+
 ####################### PAGE LAYOUT #############################
 layout = html.Div(
     [
@@ -31,6 +39,8 @@ layout = html.Div(
             id="selection", options = ["BPM", "Key", "Mode", "Dancebility", "Valence", "Energy", "Acousticness", "Instrumentalness", "Liveness", "Speechiness"], value="BPM"
         ),
         dcc.Graph(id="histogram"),
+        html.H4("Bubble Chart of All Songs"),
+        dcc.Graph(figure = create_bubble_chart(df))
     ]
 )
 

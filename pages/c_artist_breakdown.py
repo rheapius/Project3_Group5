@@ -41,9 +41,9 @@ options = [{"label": artist.capitalize(), "value": artist} for artist in artist_
 #     return scatter_fig
 
 def change_artist(artist):
-    fig_3d_scatter = px.scatter_3d(df[df["Artist"].isin([artist])], x='Energy', y='Valence', z='Dancebility', color='Streams',
+    fig_3d_scatter = px.scatter_3d(df[df["Artist"].isin([artist])], x='Dancebility', y='BPM', z='Speechiness', color='Streams',
                                size='Streams', hover_name='Track',
-                               title='Energy vs. Valence vs. Danceability', color_continuous_scale= "Plasma", width= 1500, height= 800)
+                               title='BPM vs. Speechiness vs. Danceability', color_continuous_scale= "Plasma", width= 1500, height= 800)
     return fig_3d_scatter
 
 
