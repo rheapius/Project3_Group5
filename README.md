@@ -19,7 +19,7 @@ The database file ('topsongs.sqlite') is saved in the main repository.
 
 ## Data Visualisation
 Using Jupyter Notebook to test the plots to be created. Using plotly.express as the modelling tool
-https://plotly.com/python/line-and-scatter/#scatter-plots-in-dash - referened for creation of bubble chart.
+https://plotly.com/python/line-and-scatter/#scatter-plots-in-dash - referenced for creation of bubble chart.
 Using functions to call the various plots as required by the html pages.
 
 ## HTML page
