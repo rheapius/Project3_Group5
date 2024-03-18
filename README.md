@@ -22,7 +22,7 @@ Using Jupyter Notebook to test the plots to be created. Using plotly.express as 
 https://plotly.com/python/line-and-scatter/#scatter-plots-in-dash - referenced for creation of bubble chart.
 Using functions to call the various plots as required by the html pages.
 
-## HTML page
+## Instructions for Web Page
 
 ## Ethical considerations
 The dataset gives us the stream count of each song and other information regarding the songs. The stream count data is collected by Spotify, a music streaming service. Spotify users agree to this data collection when they sign up for a new account. This has been mentioned in their privacy policy.
