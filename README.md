@@ -5,8 +5,8 @@ Visualize top 10 songs & artists based on streaming.
 Song aspects visualized using deployed Github pages
 
 ## Aim
-The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether the songs are similarly popular on other streaming platforms.
-To do this we will examine the beats per minute, the main key of the music and whether a particular artist features more prominently in the charts.
+The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether song characteristics have changed over time.
+Characteristics examined include the beats per minute, the main key of the music and whether a particular artist features more prominently in the charts.
 
 ## Data cleaning 
 The data was obtained as a CSV file and then cleaned up using Jupyter notebook. The NAN values were removed, columns renamed and string values were converted to numeric values. The 'Data_cleaning' folder houses the csv files with cleaned data.
