@@ -15,7 +15,7 @@ layout = html.Div(children=[
     html.Div(children=[
         html.Br(),
         html.H2("Aim"),
-        "The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether the songs are similarly popular on other streaming platforms. To do this we will examine the beats per minute, the main key of the music and whether a particular artist features more prominently in the charts.",
+        "The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether song characteristics have changed over time. Characteristics examined include the beats per minute, the main key of the music and whether a particular artist features more prominently in the charts.",
     ]),
     html.Div(children=[
         html.Br(),
