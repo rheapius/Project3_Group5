@@ -47,6 +47,8 @@ Plotly.express https://plotly.com/python
 
 Understanding music keys: https://www.pianote.com/blog/c-db-scales/ 
 
+https://dash.plotly.com/
+
 
 
 
