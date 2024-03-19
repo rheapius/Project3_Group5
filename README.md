@@ -1,8 +1,9 @@
 # Most Streamed Songs & Artists
 
 ## Overview:
-Visualize top 10 songs & artists based on streaming. 
-Song aspects visualized using deployed Github pages
+Visualize top 10 songs & artists based on streaming. Song attributes are analysed & visualized.
+
+Dashboard link: https://music-analysis-app.onrender.com/streamed_song_summary
 
 ## Aim
 The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether song characteristics have changed over time.
@@ -23,6 +24,10 @@ https://plotly.com/python/line-and-scatter/#scatter-plots-in-dash - referenced f
 Using functions to call the various plots as required by the html pages.
 
 ## Instructions for Web Page
+The webpage has interactive tabs for welcome page, dataset, top ten songs, artist breakdown, attribute summary/correlation & songs overtime.
+The artist breakdown tab lets users select artists and their song attributes for visualisation.
+Attribute summary tab allows users to select a song attribute to show its distribution in top 100 songs.
+Songs overtime tab visualises changes in a chosen attribute with total streamed songs over a period of time.
 
 Website link - https://music-analysis-app.onrender.com/
 
