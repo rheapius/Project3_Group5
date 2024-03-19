@@ -3,7 +3,7 @@
 ## Overview:
 Visualize top 10 songs & artists based on streaming. Song attributes are analysed & visualized.
 
-Dashboard link: https://music-analysis-app.onrender.com/
+Website link: https://music-analysis-app.onrender.com/
 
 ## Aim
 The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether song characteristics have changed over time.
@@ -34,6 +34,8 @@ Website link - https://music-analysis-app.onrender.com/
 ## Ethical considerations
 The dataset gives us the stream count of each song and other information regarding the songs. The stream count data is collected by Spotify, a music streaming service. Spotify users agree to this data collection when they sign up for a new account. This has been mentioned in their privacy policy.
 
+#Presentation slides
+https://docs.google.com/presentation/d/1-wSorsRRXdpZF7BX0pF79WdNc3oMrycIbiY8QiNwLYc/edit?usp=sharing
 
 ## References & Datasets
 
