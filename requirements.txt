@@ -1,6 +1,5 @@
 dash
 pandas
 plotly.express
-plotly.graph_objects
 sqlalchemy
 gunicorn
