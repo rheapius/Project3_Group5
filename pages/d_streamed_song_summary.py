@@ -50,7 +50,7 @@ fig = px.imshow(corr_matrix,
                     labels=dict(x="Variables", y="Variables", color="Correlation"),
                     x=corr_matrix.index,
                     y=corr_matrix.columns,
-                    color_continuous_scale='Viridis', title= 'Song Attribute Correlation Matrix')
+                    color_continuous_scale='YlGnBu', title= 'Song Attribute Correlation Matrix')
 
 
 def create_bubble_chart(df):

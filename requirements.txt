@@ -1,5 +1,4 @@
 dash
-dash.dependencies
 pandas
 plotly.express
 plotly.graph_objects
