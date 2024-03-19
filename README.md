@@ -3,7 +3,7 @@
 ## Overview:
 Visualize top 10 songs & artists based on streaming. Song attributes are analysed & visualized.
 
-Dashboard link: https://music-analysis-app.onrender.com/streamed_song_summary
+Dashboard link: https://music-analysis-app.onrender.com/
 
 ## Aim
 The aim of our project is to uncover patterns in Spotify’s playlist for 2023. We’ll examine what makes a song popular and whether song characteristics have changed over time.
