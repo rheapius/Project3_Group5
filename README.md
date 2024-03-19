@@ -24,6 +24,8 @@ Using functions to call the various plots as required by the html pages.
 
 ## Instructions for Web Page
 
+Website link - https://music-analysis-app.onrender.com/
+
 ## Ethical considerations
 The dataset gives us the stream count of each song and other information regarding the songs. The stream count data is collected by Spotify, a music streaming service. Spotify users agree to this data collection when they sign up for a new account. This has been mentioned in their privacy policy.
 
